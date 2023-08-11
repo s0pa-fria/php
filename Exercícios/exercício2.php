@@ -36,7 +36,20 @@
 
 
         <?php
-        echo "&#160;  &#160;   Exercício2, soltando a criatividade<br>";
+            echo "&#160;  &#160;   Exercício2, soltando a criatividade<br>";
         ?>
+        
+        <p class="destaque">When I Was Your Man - Bruno Mars</p>
+        <p> I hope he buys you flowers <br>
+            I hope he holds your hand <br>
+            Give you all his hours <br>
+            When he has the chance <br>
+            Take you to every party <br>
+            'Cause I remember how much you loved to dance <br>
+            Do all the things I should have done <br>
+            When I was your man <br>
+            Do all the things I should have done <br>
+            When I was your man</p>
+        
     </body>
 </html>
