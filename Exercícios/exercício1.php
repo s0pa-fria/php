@@ -8,6 +8,8 @@
     <!-- CSS Interno -->
     <style>
         .destaque {color: red}
+
+        p {font-style: italic}
     </style>
 </head>
     <body>
