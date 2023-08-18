@@ -39,7 +39,7 @@
         $num = 118;
 
         if(is_string($str)) {
-            echo "$str é uma string 1<br>";
+            echo "$str0p é uma string 1<br>";
         }
 
         if(is_string($num)) {
