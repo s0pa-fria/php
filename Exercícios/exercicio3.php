@@ -203,6 +203,5 @@
         echo "<p>O Segundo valor da lista é: $arr[1]</p>";
 
     ?>
-
 </body>
 </html>
