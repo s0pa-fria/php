@@ -18,6 +18,12 @@
         <?php
 
             // 1ª Digitação (Aqui)
+            function dadosAutor(){
+                echo "<div>";
+                echo "<p>Mattia Bionotto</p>";
+                echo "<p>mattia.bionotto@ferrari.f1</p>";
+                echo "<div>";
+            }
 
         ?>
 
@@ -43,6 +49,8 @@
         ?>
     
             <!-- 2ª Digitação (Aqui) -->
+            <p>Estamos no curso de <?=dadosCurso()?></p>
+            <p><?=dadosCurso()?> é ministrado no SENAI</p>
 
         <hr>
         
@@ -50,9 +58,11 @@
     
         <!-- Função Soma -->
         <?php
-
             // 3ª Digitação (Aqui)
-
+            function soma ($valor1, $valor2, $valor3=0){
+                $total = $valor1 + $valor2 + $valor3;
+                return $total;
+            }
         ?>
     
         <!-- Obs: Se não fosse o uso da função a soma abaixo teria que ser feita 3x via código, portanto a função reaproveita o código (isso é uma vantagem) -->
@@ -101,8 +111,10 @@
         <h2 class="destaque">Função anônima (closure, lambda)</h2>
 
         <?php
-
             // 4ª Digitação (Aqui)
+            $formataPreco = function($valor) {
+                return "R$". number_format($valor,2, "," , ".");
+            };
 
         ?>
 
@@ -124,6 +136,11 @@
 
 
             // 5ª Digitação (Aqui)
+            function calculaMedia (float $n1, float $n2): float {
+                $media = ($n1 + $n2)/2;
+                return $media;
+            }
+
             
 
         ?>
