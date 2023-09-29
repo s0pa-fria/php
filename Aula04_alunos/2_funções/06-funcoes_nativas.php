@@ -176,6 +176,15 @@ $senhaSegura = password_hash($senha, PASSWORD_DEFAULT);
 <!-- Como checar se a senha é a correta -->
 
 <!-- 7ª Digitação (Aqui)  -->
+<?php
+    $senhaDigitada = "123abc";
+
+    if(password_verify($senhaDigitada,$senhaSegura)){
+        echo "Beleza!!! Senhas iguais...";
+    } else{
+        echo "Opa!!! Senha errada.";
+    }
+?>
     
 </body>
 </html>
